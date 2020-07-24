@@ -10,8 +10,8 @@ The first step is to train a net to fit the function of bm3d noise reduction. In
 The second step is to find the optimal bm3d parameters suitable for this dataset. We fixed the net parameter and update the parameter layer which cat input noisy images. Inputs are noisy images cat with random initialize parameter layer, labels are ground truth images.
 
 <p align="center">
-  <img src="https://github.com/Apathetically/ProxyOpt/blob/master/results/readme/figure_1.png" width="425"/>
-  <img src="https://github.com/Apathetically/ProxyOpt/blob/master/results/readme/figure_2.png" width="425"/>
+  <img src="https://github.com/Apathetically/ProxyOpt/blob/master/results/readme/figure_1.png" width="325"/>
+  <img src="https://github.com/Apathetically/ProxyOpt/blob/master/results/readme/figure_2.png" width="325"/>
 </p>
 
 ### loss of step1
@@ -41,10 +41,10 @@ Here we give the results of network simulation. Following image depict the psnr 
 note: top left [gt], top right [noisy], bottom left [bm3d], bottom right [net].
 
 <p align="center">
-  <img src="https://github.com/Apathetically/ProxyOpt/blob/master/results/readme/figure_5.png" width="420"/>
-  <img src="https://github.com/Apathetically/ProxyOpt/blob/master/results/readme/182.png" width="420"/>
-  <img src="https://github.com/Apathetically/ProxyOpt/blob/master/results/readme/24.png" width="420"/>
-  <img src="https://github.com/Apathetically/ProxyOpt/blob/master/results/readme/84.png" width="420"/>
+  <img src="https://github.com/Apathetically/ProxyOpt/blob/master/results/readme/figure_5.png" width="320"/>
+  <img src="https://github.com/Apathetically/ProxyOpt/blob/master/results/readme/182.png" width="320"/>
+  <img src="https://github.com/Apathetically/ProxyOpt/blob/master/results/readme/24.png" width="320"/>
+  <img src="https://github.com/Apathetically/ProxyOpt/blob/master/results/readme/84.png" width="320"/>
 </p>
 
 ### apply optimized parameter into bm3d
